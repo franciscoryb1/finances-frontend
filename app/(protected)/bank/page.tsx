@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useBanks } from "./hooks/useBanks"
+import { useBanks } from "./hooks/useBank"
 import { BankTable } from "./components/BankTable"
 import { BankFormDialog } from "./components/BankFormDialog"
 import type { Bank } from "@/types/bank"
