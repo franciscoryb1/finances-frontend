@@ -1,4 +1,4 @@
-import { Calendar, Equal, Home, House, Inbox, Landmark, Layers, Search, Settings } from "lucide-react"
+import { Calendar, CreditCard, Equal, Home, House, Inbox, Landmark, Layers, Search, Settings } from "lucide-react"
 
 import {
   Sidebar,
@@ -27,6 +27,11 @@ const items = [
     title: "Categories",
     url: "/categories",
     icon: Layers,
+  },
+  {
+    title: "Credit cards",
+    url: "/credit-cards",
+    icon: CreditCard,
   },
 ]
 
