@@ -1,4 +1,4 @@
-import { Calendar, CreditCard, Equal, Home, House, Inbox, Landmark, Layers, Search, Settings } from "lucide-react"
+import { BadgeDollarSign, Calendar, CreditCard, Equal, Home, House, Inbox, Landmark, Layers, Search, Settings } from "lucide-react"
 
 import {
   Sidebar,
@@ -20,7 +20,7 @@ const items = [
   },
   {
     title: "Banks",
-    url: "/bank",
+    url: "/banks",
     icon: Landmark,
   },
   {
@@ -32,6 +32,11 @@ const items = [
     title: "Credit cards",
     url: "/credit-cards",
     icon: CreditCard,
+  },
+  {
+    title: "Transactions",
+    url: "/transactions",
+    icon: BadgeDollarSign,
   },
 ]
 
