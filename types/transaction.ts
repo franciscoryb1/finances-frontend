@@ -16,6 +16,7 @@ export interface Transaction {
   account_id?: number
   account_name?: string
   credit_card_id?: number
+  statement_id?: number
   credit_card_name?: string
   shared: boolean
   is_active: boolean

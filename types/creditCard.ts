@@ -8,4 +8,6 @@ export interface CreditCard {
     balance?: number
     expiration_date: Date
     is_active: boolean
+    color?: string
+    last_four?: number
 }
